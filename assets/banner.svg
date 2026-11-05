@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Hi, I'm Ahmad - Backend .NET Developer">
+  <title>Hi, I'm Ahmad - Backend .NET Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0717"/>
+      <stop offset="0.55" stop-color="#140C30"/>
+      <stop offset="1" stop-color="#1E1048"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#512BD4" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#512BD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9B7BFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#9B7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9B8FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#512BD4"/>
+      <stop offset="1" stop-color="#B39DFF"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Inter, Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; font-size: 15px; }
+      .kw { fill: #A78BFA; }
+      .ty { fill: #F0ABFC; font-weight: 600; }
+      .pr { fill: #E9E3FF; }
+      .st { fill: #7DD3FC; }
+      .bo { fill: #F472B6; }
+      .pu { fill: #8B80B8; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      .pulse { animation: pulse 7s ease-in-out infinite; }
+      @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.75; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- background -->
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle class="pulse" cx="1010" cy="40" r="300" fill="url(#orbA)"/>
+    <circle class="pulse" cx="120" cy="330" r="240" fill="url(#orbB)"/>
+
+    <!-- left: intro -->
+    <text x="64" y="98" class="mono" fill="#9B7BFF" style="font-size:17px">// hello, world</text>
+    <text x="60" y="166" class="sans" font-size="62" font-weight="700" fill="url(#nameGrad)">Hi, I'm Ahmad</text>
+    <rect x="64" y="188" width="96" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="64" y="236" class="sans" font-size="25" font-weight="600" fill="#E6E0FF">Backend .NET Developer</text>
+    <text x="64" y="268" class="sans" font-size="17" fill="#9A90C0">C#  ·  ASP.NET Core  ·  SQL  ·  Cloud</text>
+
+    <!-- right: code window -->
+    <g filter="url(#shadow)">
+      <rect x="690" y="46" width="456" height="232" rx="14" fill="#100A22" stroke="#3A2A73" stroke-width="1.2"/>
+    </g>
+    <path d="M690 60a14 14 0 0 1 14-14h428a14 14 0 0 1 14 14v22H690z" fill="#1A1238"/>
+    <circle cx="712" cy="64" r="5.5" fill="#3A2A73"/>
+    <circle cx="730" cy="64" r="5.5" fill="#512BD4"/>
+    <circle cx="748" cy="64" r="5.5" fill="#9B7BFF"/>
+    <text x="918" y="69" class="mono" fill="#8B80B8" text-anchor="middle" style="font-size:13px">Ahmad.cs</text>
+
+    <g class="mono" xml:space="preserve" style="white-space:pre">
+      <text x="714" y="114"><tspan class="kw">var</tspan><tspan class="pr"> ahmad </tspan><tspan class="pu">= </tspan><tspan class="kw">new</tspan><tspan class="ty"> Engineer</tspan></text>
+      <text x="714" y="138" class="pu">{</text>
+      <text x="750" y="162"><tspan class="pr">Role  </tspan><tspan class="pu">= </tspan><tspan class="st">"Backend Developer"</tspan><tspan class="pu">,</tspan></text>
+      <text x="750" y="186"><tspan class="pr">Stack </tspan><tspan class="pu">= [</tspan><tspan class="st">"C#"</tspan><tspan class="pu">, </tspan><tspan class="st">".NET"</tspan><tspan class="pu">, </tspan><tspan class="st">"SQL"</tspan><tspan class="pu">, </tspan><tspan class="st">"AWS"</tspan><tspan class="pu">],</tspan></text>
+      <text x="750" y="210"><tspan class="pr">Focus </tspan><tspan class="pu">= </tspan><tspan class="st">"APIs &amp; distributed systems"</tspan><tspan class="pu">,</tspan></text>
+      <text x="750" y="234"><tspan class="pr">OpenToWork </tspan><tspan class="pu">= </tspan><tspan class="bo">true</tspan></text>
+      <text x="714" y="258" class="pu">};</text>
+      <rect class="cursor" x="736" y="244" width="9" height="18" rx="1" fill="#B39DFF"/>
+    </g>
+  </g>
+</svg>
