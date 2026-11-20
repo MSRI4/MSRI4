@@ -25,7 +25,7 @@
   </defs>
   <circle cx="338" cy="106" r="44" fill="none" stroke="#2A1F4D" stroke-width="9"/>
   <circle class="ring" cx="338" cy="106" r="44" fill="none" stroke="url(#ring)" stroke-width="9"
-          stroke-linecap="round" stroke-dasharray="276.46" stroke-dashoffset="274.96"
+          stroke-linecap="round" stroke-dasharray="276.46" stroke-dashoffset="274.97"
           transform="rotate(-90 338 106)"/>
   <text x="338" y="111" text-anchor="middle" style="font-size:24px;font-weight:800;fill:#E6E0FF">5</text>
   <text x="338" y="125" text-anchor="middle" style="font-size:10px;fill:#9A90C0">contributions</text>
